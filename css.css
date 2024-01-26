@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header img {
+    width: 40px;
+    margin-right: 16px;
+}
+
+header .container{
+    display: flex;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.container{
+    max-width: 930px;
+    width: 100%;
+    margin: 0px auto;
+    justify-content: center;
+    align-content: center;
+}
+
+body {
+    padding-top: 60px;
+    background-color: antiquewhite;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+form input {
+    color: black;
+    font-size: 24px;
+    border: none;
+    border-bottom: solid 2px black;
+    padding: 8px;
+    margin: 0 auto;
+    max-width: 200px; /* valor de exemplo */
+}
+
+form label {
+    color: black;
+    font-size: 24px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+form input, form button, #resultado {
+    margin: 0 auto;
+    min-width: 25%; /* valor de exemplo */
+    border-radius: 6px;
+}
+
+form button {
+    margin-top: 8px;
+    background-color: #009432;
+    border: none;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+}
+
+#resultado {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    display: none;
+    margin-top: 8px;
+    padding: 20px;
+    background-color: #009432;
+}
